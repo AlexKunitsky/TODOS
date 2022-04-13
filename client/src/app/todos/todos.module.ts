@@ -6,6 +6,7 @@ import { TodosService } from "src/app/todos/services/todos.service";
 import { MainComponent } from "src/app/todos/components/main/main.component";
 import { CommonModule } from "@angular/common";
 import { TodoComponent } from "src/app/todos/components/todo/todo.component";
+import { FooterComponent } from "./components/footer/footer.component";
 
 const routes: Routes = [
     {
@@ -19,6 +20,7 @@ const routes: Routes = [
         TodosComponent,
         HeaderComponent,
         MainComponent,
+        FooterComponent,
         TodoComponent
     ],
     imports: [
